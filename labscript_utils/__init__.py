@@ -97,5 +97,5 @@ labscript_utils.double_import_denier.enable()
 # Disable the 'quick edit' feature of Windows' cmd.exe, which causes console applicatons
 # to freeze if their console windows are merely clicked on. This causes all kinds of
 # headaches, so we disable it in all labscript programs:
-import zprocess
-zprocess.disable_quick_edit()
+# import zprocess
+# zprocess.disable_quick_edit()
